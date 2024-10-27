@@ -42,5 +42,5 @@ end
 
 gem 'devise'
 gem 'devise-jwt'
-  
+gem 'letter_opener'
 
