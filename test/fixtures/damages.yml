@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rental: one
+  description: MyText
+  repair_cost: 9.99
+  status: MyString
+  report_date: 2024-10-28 14:03:32
+
+two:
+  rental: two
+  description: MyText
+  repair_cost: 9.99
+  status: MyString
+  report_date: 2024-10-28 14:03:32

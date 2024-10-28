@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  vehicle: one
+  start_date: 2024-10-28
+  end_date: 2024-10-28
+  description: MyText
+  cost: 9.99
+  status: MyString
+
+two:
+  vehicle: two
+  start_date: 2024-10-28
+  end_date: 2024-10-28
+  description: MyText
+  cost: 9.99
+  status: MyString
