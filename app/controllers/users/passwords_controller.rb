@@ -3,7 +3,6 @@ class Users::PasswordsController < Devise::PasswordsController
     respond_to :json
     #skip_before_action :verify_authenticity_token
     
-    # POST /users/password (solicitar reset)
     def create
       self.resource = resource_class.send_reset_password_instructions(resource_params)
       
@@ -25,7 +24,6 @@ class Users::PasswordsController < Devise::PasswordsController
       end
     end
   
-    # PUT /users/password (cambiar contraseña)
     def update
       self.resource = resource_class.reset_password_by_token(resource_params)
   
