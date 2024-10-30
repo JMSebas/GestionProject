@@ -19,7 +19,8 @@ Rails.application.routes.draw do
     end
   end
 
-  
+  # get '/api-docs' => 'swagger_ui#index' # Esta línea sirve la documentación de Swagger
+
   # get "up" => "rails/health#show", as: :rails_health_check
 
   
